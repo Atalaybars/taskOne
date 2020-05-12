@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first Task</title>
-    <link rel="stylesheet" type="text/css" href="bars.css">
+    <link rel="stylesheet" type="text/css" href="taskOne.css">
 </head>
 <body>
     <header>
-        <div id="bar">
-            <p id="search"><strong>Search Bar</strong></p>
-        </div>
-        <div id="button">
-            <p><strong>GO</strong></p>
-        </div>
-        <div id="out">
-            <p><strong>Log Out</strong></p>
-        </div>
+        <form>  
+            <input type="search" name="searchBar" id="searchBar" placeholder="Search Bar"/> 
+            <input type="submit" value="go" id="go"/>
+            <input type="submit" value="log out" id="out"/>
+        </form>
     </header>
     <div id="mainbody">
-        <ul>
-            <li><img src="12261099_1600x1200.jpg" alt="mountain" width="20%" height="20%"> video name </li>
-            <li><img src="10662881_1600x1200.jpg" alt="lian" width="20%" height="20%"> video name </li>
-        </ul>
+        <div class="results">
+            <img src="12261099_1600x1200.jpg" alt="mountain" width="19%" height="19%" class="image"/> 
+            <p>video name</p>
+        </div>  
+        <br/>  
+        <div class="results">
+            <img src="10662881_1600x1200.jpg" alt="lian" width="19%" height="19%" class="img"/> 
+            <p>video name</p>  
+        </div>
+        <br/>
+        <div class="results">
+            <img src="12268701_1600x1200.jpg" alt="water anf fishes" width="19%" height="19%" class="img"/> 
+            <p>video name</p>
+        </div>
     </div>
 
 
